@@ -1,0 +1,38 @@
+.business {
+    margin-left: 18px;
+    .business-reletive {
+        position: relative;
+        overflow: -moz-hidden-unscrollable;
+        overflow: hidden;
+
+        &__absolute {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            transform: rotate(45deg);
+            background-color: #dc3f45;
+            width: 147.08px;
+            text-align: center;
+            right: -31px;
+            top: 30px;
+            height: 25px;
+        }
+    }
+    .business-price {
+        background-color: $box-background-color-blue;
+        height: 102px;
+    }
+    .button__busines__order {
+        background-color: $box-background-color-blue;
+    }
+    .business__list {
+        .business__element__fas {
+            color: $box-background-color-blue;
+        }
+    }
+}

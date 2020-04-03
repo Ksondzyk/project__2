@@ -1,0 +1,14 @@
+.webshop {
+    margin-left: 18px;
+    .webshop-price {
+        background-color: $box-background-color-orange;
+    }
+    .button__webshop__order {
+        background-color: $box-background-color-orange;
+    }
+    .webshop__list {
+        .webshop__element__fas {
+            color: $box-background-color-orange;
+        }
+    }
+}

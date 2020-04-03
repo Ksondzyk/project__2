@@ -1,0 +1,14 @@
+@import "variables.scss";
+@import "mixin.scss";
+@import "page.scss";
+@import "boxes.scss";
+@import "busines.scss";
+@import "webshop.scss";
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+    color: $text-color-white;
+}
