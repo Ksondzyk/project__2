@@ -1,11 +1,10 @@
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1440px;
   height: 1000px;
   background-color: #141b1c;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .basics {
