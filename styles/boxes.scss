@@ -4,11 +4,10 @@
     @include box-bagraund-shadow;
     display: flex;
     flex-direction: column;
-
     .basic {
         display: flex;
         flex-direction: column;
-        &__title {
+        .price-card__title {
             margin: 0;
             font-weight: 700;
             font-size: 35px;
