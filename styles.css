@@ -55,25 +55,25 @@
   text-align: center;
   margin: 40px 26.51px 40px 26px;
 }
-.price-card .price-card__list {
+.price-card .price-card__options-list {
   margin: 0;
   list-style: none;
   padding: 0;
 }
-.price-card .price-card__list__element {
+.price-card .price-card__options-list__element {
   height: 50px;
   width: 100%;
   display: flex;
   align-items: center;
 }
-.price-card .price-card__list__element:nth-child(odd) {
+.price-card .price-card__options-list__element:nth-child(odd) {
   background-color: #2a343880;
 }
-.price-card .price-card__list__element .fas {
+.price-card .price-card__options-list__element .fas {
   padding: 0 22px;
   color: #5bb189;
 }
-.price-card .price-card__list__element__text {
+.price-card .price-card__options-list__element__text {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
