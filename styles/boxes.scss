@@ -75,13 +75,15 @@
         .price-card__order-btn {
             width: 154.63px;
             height: 40px;
-            background-color: $text-color-green;
             border: none;
             border-radius: 20px;
             font-size: 14px;
             line-height: 17px;
             text-align: center;
             color: $text-color-white;
+        }
+        .btn-green {
+            background-color: $text-color-green;
         }
     }
 }

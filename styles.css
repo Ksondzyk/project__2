@@ -86,13 +86,15 @@
 .price-card .price-card__button .price-card__order-btn {
   width: 154.63px;
   height: 40px;
-  background-color: #5bb189;
   border: none;
   border-radius: 20px;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
   color: #ffffff;
+}
+.price-card .price-card__button .btn-green {
+  background-color: #5bb189;
 }
 
 .business {
@@ -124,7 +126,7 @@
   background-color: #3a6ba5;
   height: 102px;
 }
-.business .button__busines__order {
+.business .price-card__busines__order {
   background-color: #3a6ba5;
 }
 .business .business__list .business__element__fas {
