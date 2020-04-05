@@ -29,7 +29,7 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 105px;
+        min-height: 105px;
         background-color: $text-color-green;
         &__title {
             font-size: 55px;
