@@ -84,17 +84,16 @@
   margin: 39px 0 40px 0;
 }
 .price-card .price-card__button .price-card__order-btn {
-  padding: 0;
   width: 154px;
   height: 40px;
-  border-radius: 20px;
   border: none;
-  outline: none;
-  cursor: pointer;
-  font-family: Montserrat, sans-serif;
+  border-radius: 20px;
   font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
   text-transform: uppercase;
-  color: #fff;
+  letter-spacing: 0.5px;
 }
 .price-card .price-card__button .btn-green {
   background-color: #5bb189;
