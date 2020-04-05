@@ -78,12 +78,12 @@
   font-size: 15px;
   line-height: 18px;
 }
-.price-card .button {
+.price-card .price-card__button {
   display: flex;
   justify-content: center;
   margin: 39px 0 40px 0;
 }
-.price-card .button__order {
+.price-card .price-card__button__order {
   width: 154.63px;
   height: 40px;
   background-color: #5bb189;
