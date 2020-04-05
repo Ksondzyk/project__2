@@ -2,8 +2,8 @@
     width: 380px;
     height: 770px;
     @include box-bagraund-shadow;
-    // display: flex;
-    // flex-direction: column;
+    display: flex;
+    flex-direction: column;
     .basic {
         display: flex;
         flex-direction: column;
@@ -73,7 +73,7 @@
         justify-content: center;
         margin: 39px 0 40px 0;
         .price-card__order-btn {
-            width: 154px;
+            width: 154.52px;
             height: 40px;
             border: none;
             border-radius: 20px;
