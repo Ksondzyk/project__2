@@ -1,7 +1,7 @@
 .page {
   display: flex;
   justify-content: center;
-  padding-top: 62px;
+  padding-top: 72px;
   width: 1440px;
   height: 1000px;
   background-color: #141b1c;
@@ -93,7 +93,7 @@
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 .price-card .price-card__button .btn-green {
   background-color: #5bb189;
