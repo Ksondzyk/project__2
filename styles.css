@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-.basics {
+.price-card {
   width: 380px;
   height: 770px;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
@@ -16,11 +16,11 @@
   display: flex;
   flex-direction: column;
 }
-.basics .basic {
+.price-card .basic {
   display: flex;
   flex-direction: column;
 }
-.basics .basic .price-card__title {
+.price-card .basic .price-card__title {
   margin: 0;
   font-weight: 700;
   font-size: 35px;
@@ -28,14 +28,14 @@
   text-align: center;
   margin-top: 33px;
 }
-.basics .basic__text {
+.price-card .basic__text {
   margin: 0;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
   margin-bottom: 33px;
 }
-.basics .price {
+.price-card .price {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,48 +43,48 @@
   height: 105px;
   background-color: #5bb189;
 }
-.basics .price__title {
+.price-card .price__title {
   font-size: 55px;
   line-height: 67px;
   text-align: center;
   margin: 0;
 }
-.basics__text {
+.price-card__text {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   text-align: center;
   margin: 40px 26.51px 40px 26px;
 }
-.basics .list {
+.price-card .list {
   margin: 0;
   list-style: none;
   padding: 0;
 }
-.basics .list__element {
+.price-card .list__element {
   height: 50px;
   width: 100%;
   display: flex;
   align-items: center;
 }
-.basics .list__element:nth-child(odd) {
+.price-card .list__element:nth-child(odd) {
   background-color: #2a343880;
 }
-.basics .list__element .fas {
+.price-card .list__element .fas {
   padding: 0 22px;
   color: #5bb189;
 }
-.basics .list__element__text {
+.price-card .list__element__text {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
 }
-.basics .button {
+.price-card .button {
   display: flex;
   justify-content: center;
   margin: 39px 0 40px 0;
 }
-.basics .button__order {
+.price-card .button__order {
   width: 154.63px;
   height: 40px;
   background-color: #5bb189;
