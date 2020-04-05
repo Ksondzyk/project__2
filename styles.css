@@ -18,6 +18,7 @@
 .price-card .basic {
   display: flex;
   flex-direction: column;
+  height: 130px;
 }
 .price-card .basic .price-card__title {
   margin: 0;
