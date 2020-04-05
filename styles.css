@@ -83,7 +83,7 @@
   justify-content: center;
   margin: 39px 0 40px 0;
 }
-.price-card .price-card__button__order {
+.price-card .price-card__button .price-card__order-btn {
   width: 154.63px;
   height: 40px;
   background-color: #5bb189;
