@@ -73,14 +73,18 @@
         justify-content: center;
         margin: 39px 0 40px 0;
         .price-card__order-btn {
-            width: 154.63px;
+            padding: 0;
+            margin-top: 37px;
+            width: 154px;
             height: 40px;
-            border: none;
             border-radius: 20px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-family: Montserrat, sans-serif;
             font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-            color: $text-color-white;
+            text-transform: uppercase;
+            color: #fff;
         }
         .btn-green {
             background-color: $text-color-green;
