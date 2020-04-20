@@ -1,6 +1,6 @@
 .business {
     margin-left: 18px;
-    .business-reletive {
+    .business-popular {
         position: relative;
         overflow: -moz-hidden-unscrollable;
         overflow: hidden;
@@ -31,7 +31,7 @@
         background-color: $box-background-color-blue;
     }
     .business__list {
-        .business__element__fas {
+        .fas-element {
             color: $box-background-color-blue;
         }
     }

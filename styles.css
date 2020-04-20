@@ -11,7 +11,6 @@
   width: 380px;
   height: 770px;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  background-color: #334247;
   display: flex;
   flex-direction: column;
 }
@@ -104,12 +103,12 @@
 .business {
   margin-left: 18px;
 }
-.business .business-reletive {
+.business .business-popular {
   position: relative;
   overflow: -moz-hidden-unscrollable;
   overflow: hidden;
 }
-.business .business-reletive__absolute {
+.business .business-popular__absolute {
   position: absolute;
   display: flex;
   align-items: center;
@@ -133,7 +132,7 @@
 .business .price-card__busines__order {
   background-color: #3a6ba5;
 }
-.business .business__list .business__element__fas {
+.business .business__list .fas-element {
   color: #3a6ba5;
 }
 

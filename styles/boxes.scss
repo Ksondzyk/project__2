@@ -1,94 +1,94 @@
 .price-card {
-    width: 380px;
-    height: 770px;
-    @include box-bagraund-shadow;
+  width: 380px;
+  height: 770px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  display: flex;
+  flex-direction: column;
+  .basic {
     display: flex;
     flex-direction: column;
-    .basic {
-        display: flex;
-        flex-direction: column;
-        height: 130px;
-        .price-card__title {
-            margin: 0;
-            font-weight: 700;
-            font-size: 35px;
-            line-height: 43px;
-            text-align: center;
-            margin-top: 33px;
-        }
-        &__text {
-            margin: 0;
-            font-size: 20px;
-            text-align: center;
-            margin-bottom: 33px;
-            font-weight: 100;
-            line-height: 24px;
-        }
-    }
-    .price-card__price {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        min-height: 105px;
-        background-color: $text-color-green;
-        &__title {
-            font-size: 55px;
-            line-height: 67px;
-            text-align: center;
-            margin: 0;
-        }
+    height: 130px;
+    .price-card__title {
+      margin: 0;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+      text-align: center;
+      margin-top: 33px;
     }
     &__text {
+      margin: 0;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 33px;
+      font-weight: 100;
+      line-height: 24px;
+    }
+  }
+  .price-card__price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 105px;
+    background-color: $text-color-green;
+    &__title {
+      font-size: 55px;
+      line-height: 67px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin: 40px 26.51px 40px 26px;
+  }
+  .price-card__options-list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+
+    &__element {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      &:nth-child(odd) {
+        background-color: $list-background-color;
+      }
+
+      .fas {
+        padding: 0 22px;
+        color: $text-color-green;
+      }
+      &__text {
         font-weight: 300;
         font-size: 15px;
         line-height: 18px;
-        text-align: center;
-        margin: 40px 26.51px 40px 26px;
+      }
     }
-    .price-card__options-list {
-        margin: 0;
-        list-style: none;
-        padding: 0;
-
-        &__element {
-            height: 50px;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            &:nth-child(odd) {
-                background-color: $list-background-color;
-            }
-
-            .fas {
-                padding: 0 22px;
-                color: $text-color-green;
-            }
-            &__text {
-                font-weight: 300;
-                font-size: 15px;
-                line-height: 18px;
-            }
-        }
+  }
+  .price-card__button {
+    display: flex;
+    justify-content: center;
+    margin: 39px 0 40px 0;
+    .price-card__order-btn {
+      width: 155px;
+      height: 40px;
+      border: none;
+      border-radius: 20px;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: $text-color-white;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
     }
-    .price-card__button {
-        display: flex;
-        justify-content: center;
-        margin: 39px 0 40px 0;
-        .price-card__order-btn {
-            width: 155px;
-            height: 40px;
-            border: none;
-            border-radius: 20px;
-            font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-            color: $text-color-white;
-            text-transform: uppercase;
-            letter-spacing: 0.3px;
-        }
-        .btn-green {
-            background-color: $text-color-green;
-        }
+    .btn-green {
+      background-color: $text-color-green;
     }
+  }
 }
